@@ -23,7 +23,7 @@ const Blog = () => {
     <div>
       <div className="wrapper blog-bg relative bg-cover bg-no-repeat bg-center">
         <div className="absolute inset-0 bg-bannerGradient -z-10"></div>
-        <section className="contain flex-col gap-6 justify-center h-80 sm:h-96">
+        <section className="contain flex-col gap-6 justify-center h-80 sm:h-96 items-center">
           <h1 className="banner-heading">Blog</h1>
         </section>
       </div>

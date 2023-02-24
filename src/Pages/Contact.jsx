@@ -3,7 +3,7 @@ const Contact = () => {
     <div>
       <div className="wrapper contact-bg relative bg-cover bg-no-repeat bg-center">
         <div className="absolute inset-0 bg-bannerGradient -z-10"></div>
-        <section className="contain flex-col gap-3 sm:gap-6 justify-center h-80 sm:h-96">
+        <section className="contain flex-col gap-3 sm:gap-6 justify-center h-80 sm:h-96 items-center">
           <h1 className="banner-heading">Contact Us</h1>
           <p className="text-sm sm:text-lg text-center text-white max-w-4xl font-poppins">
             If you're looking for high-quality painting services for your home
