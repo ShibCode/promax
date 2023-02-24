@@ -13,7 +13,7 @@ const Footer = () => {
     <div className="wrapper">
       <footer className="contain justify-between items-center py-8 flex-col gap-6 md:flex-row md:gap-0">
         <Link to="/">
-          <img src="/assets/logo.png" alt="logo" />
+          <img src="/assets/logo.png" alt="logo" className="w-32 xl:w-36" />
         </Link>
 
         <p className="text-darkBlue font-poppins text-center leading-[1]">
@@ -21,15 +21,24 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center gap-4">
-          <div className="w-8 h-8 text-white bg-lightGreen rounded-full grid place-items-center cursor-pointer hover:opacity-90">
+          <a
+            href="#"
+            className="w-8 h-8 text-white bg-lightGreen rounded-full grid place-items-center cursor-pointer hover:opacity-90"
+          >
             <FontAwesomeIcon icon={faFacebookF} />
-          </div>
-          <div className="w-8 h-8 text-white bg-lightGreen rounded-full grid place-items-center cursor-pointer hover:opacity-90">
+          </a>
+          <a
+            href="#"
+            className="w-8 h-8 text-white bg-lightGreen rounded-full grid place-items-center cursor-pointer hover:opacity-90"
+          >
             <FontAwesomeIcon icon={faLinkedinIn} />
-          </div>
-          <div className="w-8 h-8 text-white bg-lightGreen rounded-full grid place-items-center cursor-pointer hover:opacity-90">
+          </a>
+          <a
+            href="#"
+            className="w-8 h-8 text-white bg-lightGreen rounded-full grid place-items-center cursor-pointer hover:opacity-90"
+          >
             <FontAwesomeIcon icon={faTwitter} />
-          </div>
+          </a>
         </div>
       </footer>
     </div>

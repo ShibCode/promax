@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 import Service from "../Components/Service";
 
 const services = [
@@ -37,7 +39,9 @@ const Home = () => {
           <h1 className="text-white text-2xl leading-9 sm:text-4xl md:text-5xl xl:text-6xl font-bold uppercase max-w-2xl text-center sm:leading-[50px] md:leading-[60px] xl:leading-[70px]">
             Painting estimates are always FREE
           </h1>
-          <button className="green-btn">Contact Us</button>
+          <Link to="/contact" className="green-btn">
+            Contact Us
+          </Link>
         </section>
       </div>
 
@@ -51,7 +55,7 @@ const Home = () => {
 
           <div className="flex gap-12 flex-col lg:flex-row lg:gap-6 mt-10">
             <div className="flex flex-col items-center gap-4 rounded-md border-b-[3px] border-b-darkGreen px-6 py-8 flex-1 max-w-md shadow-service">
-              <img src="/assets/card1.png" alt="cardimg" />
+              <img src="/assets/card1.png" alt="cardimg" className="w-20" />
               <p className="para text-center">
                 Our staff consists of seasoned veterans with extensive
                 experience in the painting industry, and we take pride in
@@ -59,14 +63,14 @@ const Home = () => {
               </p>
             </div>
             <div className="flex flex-col items-center gap-4 rounded-md border-b-[3px] border-b-darkGreen px-6 py-8 flex-1 max-w-md shadow-service">
-              <img src="/assets/card2.png" alt="cardimg" />
+              <img src="/assets/card2.png" alt="cardimg" className="w-20" />
               <p className="para text-center">
                 We provide reasonable pricing without any hidden costs, ensuring
                 transparency throughout the project.
               </p>
             </div>
             <div className="flex flex-col items-center gap-4 rounded-md border-b-[3px] border-b-darkGreen px-6 py-8 flex-1 max-w-md shadow-service">
-              <img src="/assets/card3.png" alt="cardimg" />
+              <img src="/assets/card3.png" alt="cardimg" className="w-20" />
               <p className="para text-center">
                 At Promax Painting, we take punctuality seriously and work
                 diligently to adhere to the schedule, always striving to keep
